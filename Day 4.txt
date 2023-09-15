@@ -1,0 +1,53 @@
+Day 4
+
+git basics
+git clone url
+git add filename (new, modify, delete)
+git commit -m "message"
+git push (sent files to remote)
+git pull (get files from remote)
+
+Branch
+git branch  - list all branches
+git checkout branchname
+git push origin branchname
+git pull origin branchname
+
+
+Maven Lifecycle
+
+Introduction:
+	Maven - Build tools it will perform extra
+		Functionality - It will convert java code to machine code + package
+		pom.xml - maven (dependencies)
+
+			jar 
+			ear
+			war - web archieve
+
+	Available lifecycle phases are: 
+		pre-clean, clean, post-clean, validate, initialize, generate-sources, process-sources, generate-resources, process-resources, 
+		compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, 
+		integration-test, post-integration-test, verify, install, deploy, pre-site, site, post-site, site-deploy
+
+	Monolithic - war (Single package)
+	Microservice - Docker/kubernetes
+
+
+
+	Gradle - build.gradle (core engine apache ant) / it will android
+
+	
+
+
+
+
+Tomcat - Manual
+
+Jenkins - ci/cd - classic - war
+		Plugin: git, github, deploy to container plugin
+
+
+
+Docker fundamentals/kubernetes fundamentals
+ci/cd - modern - microservices
