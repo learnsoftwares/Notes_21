@@ -1,0 +1,10 @@
+Pipeline
+
+	Coding - Jenkins Job
+
+	Scripted Pipeline vs Declarative Pipeline (Groovy Scritp)
+
+
+Scripted Pipeline steps/configuration
+Declarative Pipeline steps/configuration
+Trigger
