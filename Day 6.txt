@@ -1,0 +1,88 @@
+
+
+Jenkins - Complete
+
+Ci/Cd - modern
+
+Docker 
+
+Laptop - Hypervisor (vmware, virtualbox)
+
+2 cpu - 4gbram (windows os) - 1cpu 2gbram (one machine) (new os/)
+
+
+wsl (linux)
+
+
+
+
+
+Cloud - linux machine
+
+	Example: ssh -i devops_key.pem azureuser@172.190.199.241
+
+	ubuntu/redhat
+	
+	sudo apt update / sudo yum update
+	
+	Installation command:
+			sudo apt install docker.io
+
+			sudo groupadd docker
+			sudo usermod -aG docker $USER
+			newgrp docker
+			
+
+Docker installation
+
+Docker cli commands
+
+
+
+docker images - list all images in your local
+docker ps  - list active containers
+docker ps -a / list all the containers
+
+
+docker pull imagename  
+
+
+docker run -d -p 8086:80 nginx
+docker run -it ubuntu
+ctrl + p + q  - exit
+docker attach containername/id
+docker commit containerid/name newimagename
+
+-it
+-d
+
+
+
+container management
+
+
+Base image - hub.docker.com
+
+ubuntu + application (container) + image = hub.docker.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
